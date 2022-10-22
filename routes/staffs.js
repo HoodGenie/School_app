@@ -13,7 +13,7 @@ staffsRoute.post("/", (req, res) => { // add a staff to the list of staff member
 staffsRoute.put("/", (req, res) => { // updates a staff's information
   res
     .status(200)
-    .send("The selected staff information has been Successfully uploaded");
+    .send("The selected staff information has been updated");
 });
 staffsRoute.delete("/", (req, res) => { // deletes a staff from the list
   res.status(200).send("Staff successfully delted");
